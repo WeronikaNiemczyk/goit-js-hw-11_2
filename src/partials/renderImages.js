@@ -1,5 +1,3 @@
-// import { gallery } from './index';
-
 export const renderImages = images => {
   return images
     .map(
@@ -32,5 +30,4 @@ export const renderImages = images => {
       }
     )
     .join('');
-  // gallery.innerHTML = imagesMarkup;
 };
